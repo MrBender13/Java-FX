@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+   <AnchorPane prefHeight="423.0" prefWidth="616.0" stylesheets="@../css/backgrounds.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.SignUpController">
+   <children>
+      <ImageView fitHeight="88.0" fitWidth="124.0" layoutX="253.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/syringe.png" />
+         </image>
+      </ImageView>
+      <RadioButton fx:id="femaleRadioButton" layoutX="257.0" layoutY="226.0" mnemonicParsing="false" text="  Female" textFill="WHITE">
+         <toggleGroup>
+            <ToggleGroup fx:id="gender" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="maleRadioButton" layoutX="150.0" layoutY="223.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" text="  Male" textFill="WHITE" toggleGroup="$gender" />
+      <PasswordField fx:id="passwordTextField" layoutX="150.0" layoutY="314.0" promptText="Enter Your Password" />
+      <TextField fx:id="nameTextField" layoutX="150.0" layoutY="116.0" promptText="Enter Your Name" />
+      <TextField fx:id="surnameTextField" layoutX="150.0" layoutY="153.0" promptText="Enter Your Surname" />
+      <TextField fx:id="usernameTextField" layoutX="150.0" layoutY="266.0" promptText="Enter Your Username" />
+      <Button fx:id="signUpButton" layoutX="176.0" layoutY="367.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="198.0" styleClass="signUpButton" text="Sing Up" />
+      <Button fx:id="loginButton" layoutX="433.0" layoutY="26.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="138.0" text="Login">
+         <styleClass>
+            <String fx:value="signUpButton" />
+            <String fx:value="LoginButton" />
+         </styleClass>
+      </Button>
+      <TextField fx:id="locationTextField" layoutX="150.0" layoutY="187.0" promptText="Enter Your Location" />
+      <Label fx:id="nameLabel" layoutX="327.0" layoutY="118.0" prefHeight="18.0" prefWidth="272.0" text="2-10 characters [A-Z][a-z]" textFill="WHITE" />
+      <Label fx:id="surnameLabel" layoutX="356.0" layoutY="157.0" prefHeight="18.0" prefWidth="215.0" text="2-10 characters [A-Z][a-z]" textFill="WHITE" />
+      <Label fx:id="locationLabel" layoutX="356.0" layoutY="191.0" prefHeight="18.0" prefWidth="215.0" text="3-10 characters [A-Z][a-z]" textFill="WHITE" />
+      <Label fx:id="passwordLabel" layoutX="356.0" layoutY="318.0" prefHeight="18.0" prefWidth="215.0" text="6-16 characters [A-Z][a-z][0-9]" textFill="WHITE" />
+      <Label fx:id="usernameLabel" layoutX="356.0" layoutY="270.0" prefHeight="18.0" prefWidth="215.0" text="3-10 characters [A-Z][a-z]" textFill="WHITE" />
+      <Label fx:id="genderLabel" layoutX="356.0" layoutY="226.0" prefHeight="18.0" prefWidth="215.0" text="choose one of points" textFill="WHITE" />
+      <ImageView fitHeight="25.0" fitWidth="40.0" layoutX="116.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="40.0" layoutX="116.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="40.0" layoutX="116.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/location.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="40.0" layoutX="116.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/gender.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="25.0" layoutX="116.0" layoutY="267.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/username.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="18.0" fitWidth="25.0" layoutX="120.0" layoutY="318.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/password.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

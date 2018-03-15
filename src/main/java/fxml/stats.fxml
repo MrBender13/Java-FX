@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="475.0" prefWidth="517.0" stylesheets="@../css/backgrounds.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.StatsController">
+   <children>
+      <TableView fx:id="table" prefHeight="377.0" prefWidth="517.0">
+        <columns>
+          <TableColumn fx:id="name" prefWidth="71.0" text="product" />
+          <TableColumn fx:id="amount" prefWidth="85.0" text="bought" />
+            <TableColumn fx:id="cost" prefWidth="69.0" text="cost" />
+            <TableColumn fx:id="owner" prefWidth="75.0" text="name" />
+            <TableColumn fx:id="type" prefWidth="75.0" text="type" />
+            <TableColumn fx:id="time" prefWidth="140.0" text="time" />
+        </columns>
+      </TableView>
+      <TextField fx:id="filterTextField" layoutX="151.0" layoutY="386.0" prefHeight="25.0" prefWidth="195.0" />
+      <Button fx:id="countGainButton" layoutX="252.0" layoutY="424.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="95.0" styleClass="addButton" text="count gain" />
+      <Button fx:id="filterButton" layoutX="151.0" layoutY="424.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="95.0" styleClass="exitButton" text="go" />
+      <Button fx:id="exitButton" layoutX="420.0" layoutY="394.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="69.0" styleClass="delButton" text="exit" />
+      <Label layoutX="63.0" layoutY="391.0" prefHeight="15.0" prefWidth="88.0" text="Enter date:" />
+   </children>
+</AnchorPane>

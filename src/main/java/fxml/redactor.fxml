@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="484.0" prefWidth="589.0" stylesheets="@../css/backgrounds.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.RedactorController">
+   <children>
+      <TableView fx:id="table" layoutX="3.0" layoutY="3.0" prefHeight="378.0" prefWidth="593.0">
+        <columns>
+          <TableColumn fx:id="name" minWidth="0.0" prefWidth="144.0" text=" product" />
+            <TableColumn fx:id="amount" prefWidth="91.0" text="amount" />
+            <TableColumn fx:id="cost" prefWidth="89.0" text="cost" />
+            <TableColumn fx:id="type" prefWidth="153.0" text="type" />
+            <TableColumn fx:id="bought" prefWidth="111.0" text="bought " />
+        </columns>
+      </TableView>
+      <Button fx:id="exitButton" layoutX="20.0" layoutY="431.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="96.0" styleClass="exitButton" text="exit" />
+      <Button fx:id="addButton" layoutX="22.0" layoutY="399.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="96.0" styleClass="addButton" text="reg item" />
+      <Button fx:id="reportButton" layoutX="249.0" layoutY="400.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="89.0" text="pdf" />
+      <Button fx:id="increaseButton" layoutX="360.0" layoutY="401.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="80.0" styleClass="addButton" text="increase" />
+      <Button fx:id="decreaseButton" layoutX="359.0" layoutY="434.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="80.0" styleClass="delButton" text="decrease" />
+      <TextField fx:id="amountField" layoutX="454.0" layoutY="413.0" prefHeight="25.0" prefWidth="128.0" />
+      <Button fx:id="deleteButton" layoutX="134.0" layoutY="399.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="89.0" styleClass="delButton" text="del item" />
+   </children>
+</AnchorPane>

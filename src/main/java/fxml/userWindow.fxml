@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="600.0" stylesheets="@../css/backgrounds.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.UserWindowController">
+   <children>
+      <Button fx:id="shopButton" layoutX="29.0" layoutY="29.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="94.0" styleClass="signUpButton" text="shop" />
+      <Button fx:id="cartButton" layoutX="28.0" layoutY="64.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="94.0" styleClass="LoginButton" text="cart" />
+      <TableView fx:id="table" layoutX="165.0" layoutY="23.0" prefHeight="352.0" prefWidth="432.0">
+        <columns>
+          <TableColumn fx:id="name" prefWidth="173.0" text="name" />
+          <TableColumn fx:id="cost" prefWidth="121.0" text="cost" />
+            <TableColumn fx:id="amount" minWidth="0.0" prefWidth="136.0" text="amount" />
+        </columns>
+      </TableView>
+      <TextField fx:id="amountField" layoutX="354.0" layoutY="390.0" prefHeight="25.0" prefWidth="94.0" />
+      <Button fx:id="addButton" layoutX="467.0" layoutY="390.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="94.0" styleClass="addButton" text="add" />
+      <Button fx:id="deleteButton" layoutX="234.0" layoutY="390.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="94.0" styleClass="delButton" text="delete" />
+      <Button fx:id="buyButton" layoutX="27.0" layoutY="102.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="94.0" text="buy" />
+      <Label fx:id="infoLabel" layoutX="301.0" layoutY="426.0" prefHeight="15.0" prefWidth="198.0" text="only numbers 1- 100.000" />
+   </children>
+</AnchorPane>

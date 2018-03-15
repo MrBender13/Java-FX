@@ -1,0 +1,32 @@
+.root {
+    -fx-background-color: #6c6d78;
+}
+
+.signUpButton {
+    -fx-background-color: #3b77ff;
+    -fx-font-family: cursive;
+}
+
+.LoginButton {
+    -fx-background-color: #ffdc71;
+}
+
+.addButton {
+    -fx-background-color: #50933e;
+    -fx-font-family: cursive
+}
+.exitButton {
+    -fx-background-color: #ffdc71;
+}
+
+.saveButton {
+    -fx-background-image: url("../resources/save.png");
+}
+
+.pdfButton {
+    -fx-background-image: url("../resources/pdf.png");
+}
+
+.delButton {
+    -fx-background-color: #e00b0c;
+}

@@ -1,0 +1,7 @@
+bandage 300 medicines 60 0
+aspirin 1000 pills 130 0
+c 500 pills 20 0
+coal 100 pills 50 0
+thermometer 20 item 250 0
+hematogen 350 candy 35 0
+myItem 50 pill 100 0

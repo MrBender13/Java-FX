@@ -1,0 +1,7 @@
+bandage 300 medicines 60 0
+aspirin 1000 pills 130 0
+thermometer 20 item 250 0
+qwe 123 qwe 123 0
+newItem 100 vitamin 100 0
+acc 1 pill 100 0
+aspirin 123 PILL 100 0

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="211.0">controllers.AddItemController</node>
+    <node x="1336.2063492063492" y="0.0">controllers.AdminMenuController</node>
+    <node x="294.7460317460318" y="0.0">realization.Item</node>
+    <node x="299.0" y="355.0">realization.ItemData</node>
+    <node x="627.2063492063492" y="0.0">controllers.SignUpController</node>
+    <node x="262.2063492063492" y="710.0">controllers.RedactorController</node>
+    <node x="1006.7063492063492" y="0.0">realization.Stats</node>
+    <node x="967.2063492063492" y="225.0">controllers.StatsController</node>
+    <node x="276.2063492063492" y="1247.0">controllers.LoginController</node>
+    <node x="1610.2063492063492" y="0.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="controllers.RedactorController" target="realization.ItemData">
+      <point x="-45.714285714285666" y="-243.5" />
+      <point x="376.49206349206355" y="670.0" />
+      <point x="431.0" y="670.0" />
+      <point x="44.0" y="75.5" />
+    </edge>
+    <edge source="controllers.LoginController" target="controllers.RedactorController">
+      <point x="0.0" y="-183.5" />
+      <point x="0.0" y="243.5" />
+    </edge>
+    <edge source="controllers.RedactorController" target="controllers.AddItemController">
+      <point x="-137.14285714285705" y="-243.5" />
+      <point x="285.06349206349216" y="690.0" />
+      <point x="139.5" y="690.0" />
+      <point x="0.0" y="219.5" />
+    </edge>
+    <edge source="realization.ItemData" target="realization.Item">
+      <point x="0.0" y="-75.5" />
+      <point x="387.0" y="191.0" />
+      <point x="397.9960317460318" y="191.0" />
+      <point x="-14.75" y="75.5" />
+    </edge>
+    <edge source="controllers.AddItemController" target="realization.Item">
+      <point x="-93.0" y="-219.5" />
+      <point x="46.5" y="171.0" />
+      <point x="309.4960317460318" y="171.0" />
+      <point x="-103.25" y="75.5" />
+    </edge>
+    <edge source="controllers.StatsController" target="realization.Stats">
+      <point x="-121.5" y="-183.5" />
+      <point x="1007.7063492063492" y="200.0" />
+      <point x="1037.3313492063492" y="200.0" />
+      <point x="-91.875" y="87.5" />
+    </edge>
+    <edge source="controllers.RedactorController" target="realization.Item">
+      <point x="45.71428571428578" y="-243.5" />
+      <point x="467.920634920635" y="690.0" />
+      <point x="496.5" y="690.0" />
+      <point x="496.5" y="181.0" />
+      <point x="456.9960317460318" y="181.0" />
+      <point x="44.25" y="75.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="665.3333333333339" y="694.1666666666672" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
